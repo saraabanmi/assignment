@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAEFDE"
     android:gravity="center"
     android:paddingLeft="20dp"
     android:paddingTop="20dp"
@@ -21,8 +22,7 @@
         android:paddingLeft="20dp"
         android:paddingTop="20dp"
         android:paddingRight="20dp"
-        android:paddingBottom="20dp"
-        android:text="Name" />
+        android:paddingBottom="20dp" />
 
     <Button
         android:id="@+id/btnClickHere"
@@ -30,11 +30,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextName"
         android:layout_centerInParent="true"
+        android:background="#03A9F4"
         android:paddingLeft="20dp"
         android:paddingTop="20dp"
         android:paddingRight="20dp"
         android:paddingBottom="20dp"
-        android:text="Button" />
+        android:shadowColor="#03A9F4"
+        android:text="Send" />
 
     <TextView
         android:id="@+id/textName"
@@ -44,6 +46,5 @@
         android:paddingLeft="20dp"
         android:paddingTop="20dp"
         android:paddingRight="20dp"
-        android:paddingBottom="20dp"
-        android:text="TextView" />
+        android:paddingBottom="20dp" />
 </RelativeLayout>
